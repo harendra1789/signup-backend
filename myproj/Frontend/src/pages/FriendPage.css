@@ -1,0 +1,76 @@
+/* Container for the entire friend page */
+.friend-page {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Title of the page */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for the list of friends */
+.friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual friend card styling */
+.friend-card {
+    width: 180px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for cards */
+.friend-card:hover {
+    transform: scale(1.05);
+}
+
+/* Styling the friend's profile picture */
+.friend-profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+/* Styling the friend info container */
+.friend-info {
+    margin-top: 10px;
+}
+
+/* Styling the friend's name */
+.friend-info h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* Button to send a message */
+.message-button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.message-button:hover {
+    background-color: #0d74d3;
+}
